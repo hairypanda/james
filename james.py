@@ -5,7 +5,7 @@ import random
 beverages = [ "red bull", "coffee" ]
 
 def caffeinate():
-    print "James just sank another %s" % beverages[random.randrange(0, len(beverages))]
+    print "James just sank another %s" % random.choice(beverages)
 
-while [ 1 ]:
+while 1:
     caffeinate()
